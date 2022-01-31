@@ -1211,7 +1211,7 @@ Scan QR di atas bila pengguna Dana`
 teks =
 `BLESSBOTZ 2.0.0 | Create By BLESS OFC
 ${tampilTanggal}`
-Ryuu.sendMessage(from, { contentText: `${menu}`, footerText: `${teks}`, buttons: [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'BACK MENU 💌' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: dona, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
+Ryuu.sendMessage(from, { contentText: `${menu}`, footerText: `${teks}`, buttons: [{ buttonId: `${prefix}menu`, buttonText: { displayText: 'BACK MENU 💌' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: donasi.jpg, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 man = fs.readFileSync('./assets/tabun.mp3');
 break
 case 'warmenu':
